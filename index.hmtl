@@ -4,100 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ProdHora Studio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-<header class="hero">
-  <nav>
-    <h2>ProdHora Studio</h2>
-    <a href="#contato">Chamar no WhatsApp</a>
-  </nav>
+  <header class="hero">
+    <nav class="menu">
+      <h2>ProdHora Studio</h2>
+      <a href="#contato">WhatsApp</a>
+    </nav>
 
-  <div class="hero-content">
-    <h1>Sites, artes e divulgação para negócios da quebrada</h1>
-    <p>Criamos páginas, flyers, cardápios digitais e identidades visuais para ajudar pequenos negócios a vender mais.</p>
-    <a class="btn" href="https://wa.me/5551981415593?text=Olá,%20vim%20pelo%20site%20da%20ProdHora%20Studio%20e%20quero%20fazer%20um%20orçamento" target="_blank">
-      Fazer orçamento agora
+    <div class="hero-texto">
+      <h1>Sites, artes e divulgação para negócios da quebrada</h1>
+      <p>Criação de sites, flyers, cardápios digitais e páginas profissionais para vender mais.</p>
+
+      <a class="botao" href="https://wa.me/5551981415593" target="_blank">
+        Fazer orçamento
+      </a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Serviços</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Sites</h3>
+        <p>Sites profissionais para comércios, artistas e empresas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Flyers</h3>
+        <p>Artes para Instagram, WhatsApp, eventos e promoções.</p>
+      </div>
+
+      <div class="card">
+        <h3>Cardápio Digital</h3>
+        <p>Cardápio online com botão direto para WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Planos</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Flyer</h3>
+        <strong>R$ 50</strong>
+      </div>
+
+      <div class="card">
+        <h3>Página Simples</h3>
+        <strong>R$ 250</strong>
+      </div>
+
+      <div class="card">
+        <h3>Site Completo</h3>
+        <strong>R$ 600+</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Chame agora</h2>
+    <p>Peça seu orçamento pelo WhatsApp.</p>
+
+    <a class="botao" href="https://wa.me/5551981415593" target="_blank">
+      Chamar no WhatsApp
     </a>
-  </div>
-</header>
+  </section>
 
-<section class="servicos">
-  <h2>O que fazemos</h2>
-
-  <div class="cards">
-    <div class="card">
-      <h3>Sites Profissionais</h3>
-      <p>Páginas modernas para lancherias, barbearias, adegas, artistas e lojas.</p>
-    </div>
-
-    <div class="card">
-      <h3>Flyers e Artes</h3>
-      <p>Artes chamativas para Instagram, WhatsApp, eventos e promoções.</p>
-    </div>
-
-    <div class="card">
-      <h3>Cardápio Digital</h3>
-      <p>Cardápio online com botão direto para pedido no WhatsApp.</p>
-    </div>
-
-    <div class="card">
-      <h3>Divulgação</h3>
-      <p>Ideias e estratégias para chamar mais clientes todos os dias.</p>
-    </div>
-  </div>
-</section>
-
-<section class="portfolio">
-  <h2>Projetos que podemos criar</h2>
-
-  <div class="projetos">
-    <div class="projeto">MotoMoto Lanches</div>
-    <div class="projeto">Adega 19</div>
-    <div class="projeto">Barbearia</div>
-    <div class="projeto">Refrilav</div>
-    <div class="projeto">Artistas e Músicos</div>
-    <div class="projeto">Lojas de Roupa</div>
-  </div>
-</section>
-
-<section class="precos">
-  <h2>Planos iniciais</h2>
-
-  <div class="cards">
-    <div class="card preco">
-      <h3>Flyer Simples</h3>
-      <strong>R$ 50 a R$ 80</strong>
-      <p>Arte rápida para divulgação nas redes sociais.</p>
-    </div>
-
-    <div class="card preco destaque">
-      <h3>Página Profissional</h3>
-      <strong>R$ 250 a R$ 400</strong>
-      <p>Site simples com botão de WhatsApp e visual moderno.</p>
-    </div>
-
-    <div class="card preco">
-      <h3>Site Completo</h3>
-      <strong>R$ 600 a R$ 1.200</strong>
-      <p>Site completo com seções, catálogo e identidade visual.</p>
-    </div>
-  </div>
-</section>
-
-<section id="contato" class="contato">
-  <h2>Vamos criar seu projeto?</h2>
-  <p>Chame agora no WhatsApp e peça seu orçamento.</p>
-
-  <a class="btn" href="https://wa.me/5551981415593?text=Olá,%20quero%20fazer%20um%20orçamento%20com%20a%20ProdHora%20Studio" target="_blank">
-    Chamar no WhatsApp
-  </a>
-</section>
-
-<footer>
-  <p>© 2026 ProdHora Studio — Criado por Marlon Correa</p>
-</footer>
+  <footer>
+    <p>© 2026 ProdHora Studio - Criado por Marlon Correa</p>
+  </footer>
 
 </body>
 </html>
